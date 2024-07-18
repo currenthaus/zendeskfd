@@ -1,0 +1,41 @@
+{
+    "name": "mitcs/zendeskfd",
+    "description": "Forward form submissions to zendesk",
+    "type": "craft-plugin",
+    "version": "1.0.0",
+    "keywords": [
+        "craft",
+        "cms",
+        "craftcms",
+        "craft-plugin",
+        "zendeskfd"
+    ],
+    "support": {
+        "docs": "https://github.com/https://github.com/MatsonIsomTech/zendeskfd/blob/master/README.md",
+        "issues": "https://github.com/https://github.com/MatsonIsomTech/zendeskfd/issues"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "MatsonIsomTech",
+            "homepage": "https://www.mitcs.com"
+        }
+    ],
+    "require": {
+        "craftcms/cms": "^3.0.0"
+    },
+    "autoload": {
+        "psr-4": {
+          "mitcs\\zendeskfd\\": "src/"
+        }
+    },
+    "extra": {
+        "name": "zendeskfd",
+        "handle": "zendeskfd",
+        "developer": "MatsonIsomTech",
+        "developerUrl": "https://www.mitcs.com",
+        "documentationUrl": "https://github.com/https://github.com/MatsonIsomTech/zendeskfd/blob/master/README.md",
+        "changelogUrl": "https://raw.githubusercontent.com/https://github.com/MatsonIsomTech/zendeskfd/master/CHANGELOG.md",
+        "class": "mitcs\\zendeskfd\\Zendeskfd"
+    }
+}
